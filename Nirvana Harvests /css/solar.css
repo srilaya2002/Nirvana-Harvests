@@ -1,0 +1,64 @@
+
+h1{
+    padding-top:60px; 
+    margin-top:-20px;
+    text-align:center;
+    color:rgb(119, 156, 10);
+    font-size:100px;
+    font-family:'Times New Roman', Times, serif;
+}
+.image1{
+    width:100%;
+ 
+}
+.solardesc, .solar_item p,.conclusion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    text-align: center;
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding-top:40px; /* Add padding to separate the tagline and paragraph */
+}
+
+.solar_provisions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.solar_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+
+.solar_item::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.solar_item img {
+    width: 500px;
+    height: 500px;
+    margin:10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.conclusion{
+    margin-top:40px;
+}
+
+
+
+

@@ -1,0 +1,92 @@
+h1{
+    padding-top:60px; 
+    margin-top:-20px;
+    text-align:center;
+    color:rgb(156, 127, 10);
+    font-size:100px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Video_container {
+    display: flex;
+    flex-direction:row; /* Stack items vertically on small screens */
+}
+
+video {
+    max-width: 100%;
+    height: auto; /* Maintain video aspect ratio */
+}
+
+.content {
+    background-color: rgb(156, 127, 10);
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px; /* Adjust font size for better readability */
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    padding-top: 50px;
+}
+.com_tagline{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(156, 127, 10);
+    text-align: center; /* Add this to center the tagline text */
+}
+.com_content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    margin-bottom: 0px;
+    padding:-20px; /* Add padding to separate the tagline and paragraph */
+    align-items: center; 
+    text-align: center;
+}
+.com_provisions h2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:left;
+    font-size: 30px; 
+    padding-top: 50px;
+}
+
+.com_provisions p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    padding:-20px; /* Add padding to separate the tagline and paragraph */
+    text-align:left;
+    max-width: 800px;
+}
+.com_provisions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.water-wisdom,
+.rooftop-gardens,
+.solar-synergy {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.com-pic {
+    height:400px;
+    width:400px;
+    padding-left: 15px;
+ 
+}
+.solar-synergy img{
+    padding-top: 40px;
+}
+
+
+

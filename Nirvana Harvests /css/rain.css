@@ -1,0 +1,77 @@
+
+h1{
+    padding-top:60px; 
+    margin-top:-20px;
+    text-align:center;
+    color:rgb(32, 139, 189);
+    font-size:100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.raindesc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    text-align:center; /* Add this to center the paragraph text */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding:-20px; /* Add padding to separate the tagline and paragraph */
+
+}
+.raindrop-desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    text-align:center; /* Add this to center the paragraph text */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding:-20px; 
+}
+.image-and-text,.image-and-text1{
+    display: flex; /* Use flexbox to align items side by side */
+    align-items: center; 
+    margin-bottom: 50px; 
+}
+.image-and-text img,.image-and-text1 img{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    height: 50vh;
+    margin-top:60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.image-and-text p span,.conclusion span{
+    display: block;
+    text-align:center;
+    color:rgb(43, 113, 59);
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image-and-text p, .image-and-text1 p,.conclusion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding:-20px; /* Add padding to separate the tagline and paragraph */
+    align-items: center; 
+   
+}
+
+
+.image-and-text1 {
+    flex-direction: row-reverse; 
+}
+
+.conclusion span{
+    color:rgb(32, 139, 189);
+
+}
+    
+
+
+

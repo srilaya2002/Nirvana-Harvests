@@ -1,0 +1,98 @@
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.pic1, .pic2, .pic3 {
+    width: 500px; 
+    height: 500px;
+}
+
+.tagline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(124, 176, 46);
+    text-align: center; /* Add this to center the tagline text */
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    text-align:center; /* Add this to center the paragraph text */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding:-20px; /* Add padding to separate the tagline and paragraph */
+}
+#Subheading1{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;;
+    font-weight: bold;
+    text-align:left;
+    margin-top:50px;
+    text-decoration: underline;
+    color:  rgb(124, 176, 46);
+}
+
+.provisions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align:center;
+}
+.rain{
+    width: 400px; 
+    height: 500px;
+    margin:5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.solar{
+    width: 400px; 
+    height: 500px;
+    margin:5px;
+    margin-top:100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.bee{
+    width: 400px; 
+    height: 500px;
+    margin:5px;
+    margin-top:200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+div a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-size: larger;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.tooltip-container:hover img {
+    transform: scale(1.1);
+}
+
+.tooltip-container:hover .tooltip {
+    display: block;
+}
+
+
+

@@ -1,0 +1,25 @@
+.logo {
+    width: 160px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    margin: left 100px;;
+}
+

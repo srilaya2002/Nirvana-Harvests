@@ -1,0 +1,59 @@
+.img_container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction:row; /* Stack items vertically on small screens */
+}
+
+.img_container img {
+    width:50%;
+    height: auto; /* Maintain video aspect ratio */
+}
+
+.content {
+    background-color: rgb(2, 6, 36);
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:60px;
+    line-height: 1.6;
+    max-width: 900px;
+    text-align: center;
+    padding-left:30px;
+    padding-top:30px;
+
+}
+
+.newspaper-layout,.newspaper-layout2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item, .news-item2, .news-item3 {
+    flex-basis: calc(33.33% - 20px); /* Adjust width and margin as needed */
+    margin: 0 10px; /* Adjust margins as needed */
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Add border-radius for curved corners */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.news-item p, .news-item2 p, .news-item3 p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.conclusion{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px; /* Add a font size to the description */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    max-width: 800px; /* Add a maximum width to control the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    margin-top:20px;
+    padding:-20px; /* Add padding to separate the tagline and paragraph */
+    text-align: center;
+}

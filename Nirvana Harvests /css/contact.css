@@ -1,0 +1,97 @@
+.bckgrnd {
+    background-color: #23044c; /* Set your desired background color */
+    padding: 40px 0; /* Adjust padding as needed */
+    text-align:left; /* Center the content horizontally */
+    height:250px;
+}
+
+.bckgrnd h1 {
+    padding-left:200px;
+    font-size: 70px; /* Set font size for the heading */
+    color: #fbf8f8; /* Set font color for the heading */
+}
+
+
+/* Original styles for larger screens */
+
+/* Media query for smaller screens */
+
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position:relative;
+}
+
+.image img {
+    max-width:50%;
+    height: auto;
+    align-items:flex-end;
+}
+
+.overlap-box {
+    position: absolute;
+    top: 420px; /* Adjust the amount of overlap */
+    left: 25%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.988);
+    z-index: 2; /* Place the box above the background */
+    width: 400px;
+}
+
+w
+.overlap-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.overlap-box input[type="text"],
+.overlap-box input[type="email"],
+.overlap-box select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.overlap-box button[type="submit"] {
+    background-color: #150438;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+/* Add styles for valid and invalid input */
+.overlap-box input:valid,
+.overlap-box select:valid
+ {
+    border-color: #4caf50;
+}
+
+.overlap-box input:invalid,
+.overlap-box select:invalid {
+    border-color: #f44336;
+}
+
+
+
+
+
+
+
+
+
+
+
